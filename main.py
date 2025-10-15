@@ -11,6 +11,8 @@ def first():
                 print(" ", end="")
         print()
 
+# ----------------------------------------------------------------------------------------------
+
 def second():
     '''this function is for printing a tree using user's symbols and size'''
     symbol = input("Enter a symbol to draw the X: ")
@@ -20,6 +22,8 @@ def second():
     for i in range(1, size+1):
         print(" " * (size - i) + symbol * (2 * i - 1))
     print(" " * (size - 1) + symbol)
+
+# ----------------------------------------------------------------------------------------------
 
 
 def third():
@@ -34,3 +38,41 @@ def third():
             else:
                 print(" ", end="")
         print()
+
+# ----------------------------------------------------------------------------------------------
+
+def fifth():
+    a = 'I am a PDP student!'
+    print(a)
+    student = 'Akbar'
+    print(student)
+    student = 'Akobir'
+    print(student)
+    print(len(a + student))
+
+
+# hw
+
+def tasktwo():
+    num = int(input('enter a number: '))
+    fl = float(input('enter a float: '))
+    while True:
+        print('Do u wanna add these nums? yes/no: ')
+        res = input()
+        if res == 'yes':
+            print(float(num) + fl)
+            break
+        elif res == 'no':
+            if float(num) > fl:
+                print(float(num) - fl)
+                break
+            else:
+                print(fl - float(num))
+                break
+        else:
+            print('you didnt type yes or no, try again')
+
+
+
+
+tasktwo()
