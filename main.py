@@ -11,8 +11,7 @@ def first():
                 print(" ", end="")
         print()
 
-# ----------------------------------------------------------------------------------------------
-
+# ==============================================================================================
 def second():
     '''this function is for printing a tree using user's symbols and size'''
     symbol = input("Enter a symbol to draw the X: ")
@@ -23,8 +22,7 @@ def second():
         print(" " * (size - i) + symbol * (2 * i - 1))
     print(" " * (size - 1) + symbol)
 
-# ----------------------------------------------------------------------------------------------
-
+# ==============================================================================================
 
 def third():
     '''this function is for printing the shape z using symbols and size that user gave'''
@@ -39,8 +37,7 @@ def third():
                 print(" ", end="")
         print()
 
-# ----------------------------------------------------------------------------------------------
-
+# ==============================================================================================
 def fifth():
     a = 'I am a PDP student!'
     print(a)
@@ -50,10 +47,12 @@ def fifth():
     print(student)
     print(len(a + student))
 
+# ==============================================================================================
 
 # hw
 
-def tasktwo():
+def sixth():
+    '''this function does what teacher asked us to do'''
     num = int(input('enter a number: '))
     fl = float(input('enter a float: '))
     while True:
@@ -73,7 +72,6 @@ def tasktwo():
             print('you didnt type yes or no, try again')
 
 
-
-
-tasktwo()
-ewjvhb
+# ==============================================================================================
+fifth()
+sixth()
