@@ -52,7 +52,6 @@ def fifth():
 # hw
 
 def sixth():
-    '''this function does what teacher asked us to do'''
     num = int(input('enter a number: '))
     fl = float(input('enter a float: '))
     while True:
@@ -73,4 +72,89 @@ def sixth():
 
 
 # ==============================================================================================
-# --
+
+def seventh():
+    fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
+    fruits.pop(1)
+    fruits.pop(2)
+    print(fruits)
+
+# ==============================================================================================
+
+def eighth():
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    res = list(filter(lambda x : x % 2 == 1, numbers))
+    print(res)
+
+# ==============================================================================================
+
+def nineth():
+    my_list = [10, 20, 30, 40, 50, 60, 70, 80]
+    del my_list[3:5]
+    print(my_list)
+
+
+# ==============================================================================================
+
+def tenth():
+    cities = ['New york', 'London', 'Tokyo', 'Moscow', 'Paris']
+    del cities[2]
+    print(cities)
+
+
+# ==============================================================================================
+
+def eleventh():
+    nums = [5, 10, 15, 20, 25]
+    nums.pop(0)
+    nums.pop(-1)
+    print(nums)
+eleventh()
+
+# ==============================================================================================
+
+def twelveth():
+    fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
+    fruits = [fruits.pop(1)]
+    print(fruits)
+
+twelveth()
+
+# ==============================================================================================
+
+def thirteenth():
+    items = [1, 2, 3, 4, 5]
+    del items[0::]
+    print(items)
+thirteenth()
+
+
+# ==============================================================================================
+
+def fourteenth():
+    cars = ['Toyota', 'Ford', 'BMW', 'Audi']
+    cars.append(cars.pop(0))
+    print(cars)
+
+fourteenth()
+
+# ==============================================================================================
+
+def fifteenth():
+    numbers = [1, 2, 3, 4, 5]
+    numbers.reverse()
+    print(numbers)
+fifteenth()
+
+
+
+
+
+
+
+
+
+
+
+
+
