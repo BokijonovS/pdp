@@ -146,7 +146,6 @@ def fifteenth():
     print(numbers)
 fifteenth()
 
-# efvd
 
 
 
